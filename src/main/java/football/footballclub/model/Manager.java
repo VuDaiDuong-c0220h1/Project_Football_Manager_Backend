@@ -15,8 +15,10 @@ public class Manager {
     private String name;
     private int age;
     private String email;
-    private String username;
+
     private String password;
+
+    private String username;
 
     @OneToOne
     private Club club;
